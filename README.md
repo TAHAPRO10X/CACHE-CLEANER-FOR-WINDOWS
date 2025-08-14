@@ -1,2 +1,2 @@
 # CACHE-CLEANER-FOR-WINDOWS
-its very safe cash cleaner and it works 
+its very safe caChE cleaner and it works 
