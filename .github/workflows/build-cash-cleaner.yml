@@ -32,7 +32,7 @@ jobs:
           Invoke-PS2EXE -InputFile $inputScript -OutputFile $outputExe -NoConsole -STA
 
       - name: Upload EXE as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: CashCleaner-Win7-EXE
           path: cash_cleaner_win7_$env:HASH.exe
