@@ -1,0 +1,38 @@
+name: Build Cash Cleaner EXE
+
+on:
+  push:
+    paths:
+      - cash_cleaner_win7.ps1
+  release:
+    types: [created]
+
+jobs:
+  build-exe:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Get short commit hash
+        id: vars
+        run: echo "HASH=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+
+      - name: Install PS2EXE
+        shell: pwsh
+        run: |
+          Install-Module -Name ps2exe -Force -Scope CurrentUser
+
+      - name: Convert PS1 to EXE
+        shell: pwsh
+        run: |
+          $inputScript = "${{ github.workspace }}\cash_cleaner_win7.ps1"
+          $hash = $env:HASH
+          $outputExe = "${{ github.workspace }}\cash_cleaner_win7_$hash.exe"
+          Invoke-PS2EXE -InputFile $inputScript -OutputFile $outputExe -NoConsole -STA
+
+      - name: Upload EXE as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: CashCleaner-Win7-EXE
+          path: cash_cleaner_win7_$env:HASH.exe
