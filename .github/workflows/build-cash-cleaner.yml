@@ -4,6 +4,9 @@ on:
   push:
     paths:
       - cash_cleaner_win7.ps1
+      - .github/workflows/build-cash-cleaner.yml
+  workflow_dispatch:
+
   release:
     types: [created]
 
@@ -35,4 +38,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: CashCleaner-Win7-EXE
-          path: cash_cleaner_win7_$env:HASH.exe
+          path: cash_cleaner_win7_${{ env.HASH }}.exe
