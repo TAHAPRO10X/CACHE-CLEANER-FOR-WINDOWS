@@ -19,4 +19,4 @@ Safe Windows cache cleaner - Won't delete important files! 💾✨
 - Cookies & History 🍪
 - Print Spooler Files 🖨️
 
-Made with ❤️ for Windows User's
+Made with ❤️ for Windows User's 
