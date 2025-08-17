@@ -74,4 +74,5 @@ echo [INFO] Cash Cleaner Completed Successfully!
 echo.
 color %white%
 pause
-goto menu
+
+cls
