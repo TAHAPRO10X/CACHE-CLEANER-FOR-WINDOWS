@@ -1,7 +1,6 @@
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 
-# Create Form
 $form = New-Object System.Windows.Forms.Form
 $form.Text = "CASH CLEANER v1.1 - Windows 7"
 $form.Size = New-Object System.Drawing.Size(650,450)
@@ -123,4 +122,5 @@ $aboutBtn.Add_Click({
 })
 
 # Show Form
+
 [void]$form.ShowDialog()
