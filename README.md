@@ -8,7 +8,7 @@ Safe Windows cache cleaner - Won't delete important files! 💾✨
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/windows8/windows8-original.svg" alt="Windows" width="50" height="50"/>
 
 ## 🚀 Usage
-1. Download file 📥
+1. Download file's 📥
 2. Right-click → "Run as Administrator" 👨‍💻
 3. Follow instructions 📺
 
@@ -19,4 +19,4 @@ Safe Windows cache cleaner - Won't delete important files! 💾✨
 - Cookies & History 🍪
 - Print Spooler Files 🖨️
 
-Made with ❤️ for Windows
+Made with ❤️ for Windows User's
