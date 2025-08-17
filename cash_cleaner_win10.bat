@@ -79,6 +79,6 @@ color %blue%
 echo [INFO] Temp Cleaner Completed Successfully!
 echo.
 color %white%
-pause
 
 cls
+
