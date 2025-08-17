@@ -53,6 +53,5 @@ echo.
 color 0B
 echo [INFO] Temp Cleaner Completed Successfully!
 echo.
-pause
 cls
 
