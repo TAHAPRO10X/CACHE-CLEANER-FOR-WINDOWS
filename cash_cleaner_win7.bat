@@ -73,6 +73,5 @@ color %blue%
 echo [INFO] Cash Cleaner Completed Successfully!
 echo.
 color %white%
-pause
 
 cls
