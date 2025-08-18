@@ -75,3 +75,5 @@ echo.
 color %white%
 
 cls
+
+:: test
