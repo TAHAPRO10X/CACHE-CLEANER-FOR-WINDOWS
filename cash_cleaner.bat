@@ -1,7 +1,7 @@
 @echo off
 echo
 echo ============================================================
-echo                             Cash Cleaner V1.0                            
+echo                       Cash Cleaner V1.0                            
 echo ============================================================
 echo   https://github.com/TAHAPRO10X/CACHE-CLEANER-FOR-WINDOWS  
 echo ============================================================
@@ -54,6 +54,7 @@ color 0B
 echo [INFO] Temp Cleaner Completed Successfully!
 echo.
 cls
+
 
 
 
