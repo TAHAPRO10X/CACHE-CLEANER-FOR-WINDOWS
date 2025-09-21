@@ -2,7 +2,7 @@
 cls
 echo.
 echo ============================================================
-echo                       Cash Cleaner V1.1
+echo                       Cash Cleaner V1.2
 echo ============================================================
 echo   https://github.com/TAHAPRO10X/CACHE-CLEANER-FOR-WINDOWS 
 echo   Developer: https://github.com/ahmed-hassan-coder-x
